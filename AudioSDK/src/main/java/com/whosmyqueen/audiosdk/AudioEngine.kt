@@ -16,6 +16,7 @@ object AudioEngine {
 
     //    这个方法  是C进行调用  通道数
     fun createTrack(sampleRateInHz: Int, nb_channals: Int) {
+        if (null != audioTrack) return
         val channaleConfig: Int = if (nb_channals == 1) {
             AudioFormat.CHANNEL_OUT_MONO
         } else if (nb_channals == 2) {
@@ -40,6 +41,7 @@ object AudioEngine {
             audioTrack!!.write(buffer!!, 0, lenth)
         }
     }
+
     init {
         System.loadLibrary("audiosdk")
     }
