@@ -12,6 +12,10 @@ android {
         targetSdk 32
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
+    }
+    dexOptions {
+        incremental true
     }
 
     buildTypes {
@@ -39,5 +43,6 @@ dependencies {
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'com.blankj:utilcodex:1.31.0'
+    implementation "androidx.multidex:multidex:2.0.1"
     implementation project(path: ':AudioSDK')
 }
