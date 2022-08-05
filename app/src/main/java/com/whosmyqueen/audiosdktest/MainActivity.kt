@@ -1,8 +1,9 @@
-package com.whosmyqueen.audiosdk
+package com.whosmyqueen.audiosdktest
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.blankj.utilcode.util.UriUtils
+import com.whosmyqueen.audiosdk.AudioEngine
 import com.whosmyqueen.audiosdk.databinding.ActivityMainBinding
 import java.io.File
 

@@ -4,7 +4,7 @@
     package="com.whosmyqueen.audiosdk">
 
     <application
-        android:name=".MyApplication"
+        android:name="com.whosmyqueen.audiosdktest.MyApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -15,7 +15,7 @@
         android:theme="@style/Theme.AudioSDK"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.whosmyqueen.audiosdktest.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

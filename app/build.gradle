@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.whosmyqueen.audiosdk"
+        applicationId "com.whosmyqueen.audiosdktest"
         minSdk 25
         targetSdk 32
         versionCode 1

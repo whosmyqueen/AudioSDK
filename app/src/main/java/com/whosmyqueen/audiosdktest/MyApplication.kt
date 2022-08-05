@@ -1,4 +1,4 @@
-package com.whosmyqueen.audiosdk
+package com.whosmyqueen.audiosdktest
 
 import androidx.multidex.MultiDexApplication
 
